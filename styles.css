@@ -21,3 +21,19 @@ body{font-weight:300}.header nav{font-weight:400}
 .craft-media .craft-tabs button:hover{background:white;color:var(--blue)}
 .craft-media .craft-tabs button:focus-visible{outline:3px solid var(--bone);outline-offset:3px}
 @media(max-width:760px){.craft-media .craft-visual{flex:none;height:470px;min-height:0}.craft-media .craft-tabs{gap:10px}.craft-media .craft-tabs button{padding:12px}}
+
+/* Section palette and simplified contact. */
+.about{background:var(--bone);color:var(--ink)}
+.about-copy>p:not(.lead){color:var(--ink)}
+.about .statement{color:var(--ink);border-color:var(--ink)}
+.about .portrait figcaption{color:var(--bone)}
+.works{background:var(--ink);color:var(--bone)}
+.craft,.craft-copy,.craft-media,.craft-media .craft-tabs{background:var(--bone);color:var(--ink)}
+.craft-top em{color:var(--blue)}
+.craft-media .craft-tabs button{border-color:var(--blue)}
+.craft-media .craft-tabs button.active{border-color:var(--blue);background:var(--blue);color:var(--bone)}
+.craft-media .craft-tabs button.active:hover{background:var(--blue);color:var(--bone)}
+.craft-media .craft-tabs button:focus-visible{outline-color:var(--blue)}
+.contact{padding-top:0;background:var(--blue)}
+.contact-panel{grid-template-columns:minmax(0,1fr);gap:0}
+#quote-form{width:100%;max-width:900px;margin-inline:auto}

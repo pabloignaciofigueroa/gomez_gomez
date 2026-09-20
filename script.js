@@ -37,6 +37,5 @@ if(window.gsap&&window.ScrollTrigger){gsap.registerPlugin(ScrollTrigger);const m
  $$('.secondary-works article').forEach((el,i)=>gsap.from(el,{y:70+i*45,duration:1.1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 90%',once:true},clearProps:'transform'}));
  const path=$('.measurement path');const length=path.getTotalLength();gsap.fromTo(path,{strokeDasharray:length,strokeDashoffset:length},{strokeDashoffset:0,duration:2,ease:'power2.inOut',scrollTrigger:{trigger:'.craft-stage',start:'top 65%',once:true}});
  ScrollTrigger.create({trigger:'.journey-stage',start:'top 80%',end:'bottom 35%',onUpdate:s=>{if(!compareManual)setCompare(Math.round(s.progress*100));}});
- gsap.from('.contact-intro h2',{y:60,duration:1.1,ease:'power4.out',scrollTrigger:{trigger:'.contact',start:'top 80%',once:true},clearProps:'transform'});
  });mm.add('(min-width: 1101px) and (prefers-reduced-motion: no-preference)',()=>{ScrollTrigger.create({trigger:'.craft-stage',start:'top 92px',end:'+=1100',pin:true,anticipatePin:1,onUpdate:s=>{if(!craftManual)selectCraft(Math.min(2,Math.floor(s.progress*3)));}});});window.addEventListener('load',()=>ScrollTrigger.refresh());
 }
