@@ -1,6 +1,6 @@
 # Diseño V2
 
-Voz: firme, local, material. La tipografía Anton funciona como una señal de obra; Manrope explica con claridad. Dos familias locales, conservando sus licencias OFL.
+Voz: firme, local, material. La tipografía Anton funciona como una señal de obra; Roboto Condensed explica con claridad. Dos familias locales, conservando sus licencias OFL.
 
 La interfaz utiliza azul marino de la muestra del usuario (#162B4E), grafito, hueso, gris y café madera. El azul marino aparece como superficie en navbar, presentación, transición de Nercón, contacto y menú. No se utiliza una dominante verde. Las fotos mantienen su color natural.
 
