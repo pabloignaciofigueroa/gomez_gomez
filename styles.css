@@ -6,3 +6,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.work-photo:hover img,.button:hover{transform:none}}
 
 .portrait-story{top:0;right:3%;width:75px;height:75px}@media(max-width:760px){.portrait-story{width:60px;height:60px}}
+
+/* Hero: two-line headline over edge-to-edge video. */
+.hero h1>span:last-child{color:var(--blue)}
