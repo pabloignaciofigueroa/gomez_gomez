@@ -11,3 +11,13 @@
 body{font-weight:300}.header nav{font-weight:400}
 
 .hero-title>p,.hero-top,.about-copy p,.portrait figcaption span,.section-heading>p,.offset-work p,.craft-top p,.craft-copy>p,.journey-intro p,.contact-intro p,.contact-details>p{font-weight:300}
+
+/* Video scene controls directly below the video. */
+.craft-media{display:flex;flex-direction:column;min-width:0;background:var(--wood)}
+.craft-media .craft-visual{flex:1;min-height:470px}
+.craft-media .craft-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0;padding:18px 22px;background:var(--wood)}
+.craft-media .craft-tabs button{padding:14px 16px;background:var(--bone);color:var(--blue);border:2px solid var(--bone);text-align:left;transition:background .2s,color .2s}
+.craft-media .craft-tabs button.active{background:var(--blue);color:var(--bone);border-color:var(--bone)}
+.craft-media .craft-tabs button:hover{background:white;color:var(--blue)}
+.craft-media .craft-tabs button:focus-visible{outline:3px solid var(--bone);outline-offset:3px}
+@media(max-width:760px){.craft-media .craft-visual{flex:none;height:470px;min-height:0}.craft-media .craft-tabs{gap:10px}.craft-media .craft-tabs button{padding:12px}}
