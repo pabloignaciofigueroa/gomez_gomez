@@ -2,7 +2,7 @@
 
 Voz: firme, local, material. La tipografía Anton funciona como una señal de obra; Roboto Condensed explica con claridad. Dos familias locales, conservando sus licencias OFL.
 
-La interfaz utiliza azul marino de la muestra del usuario (#162B4E), grafito, hueso, gris y café madera. El azul marino aparece como superficie en navbar, presentación, transición de Nercón, contacto y menú. No se utiliza una dominante verde. Las fotos mantienen su color natural.
+La interfaz utiliza azul marino de la muestra del usuario (#1E3A63), grafito, hueso, gris y café madera. El azul marino aparece como superficie en navbar, presentación, transición de Nercón, contacto y menú. No se utiliza una dominante verde. Las fotos mantienen su color natural.
 
 Recorrido: portada de vídeo → presentación fusionada → obras → oficio → transformación → contacto. Huicha solo vive en la portada y en su recorrido ampliado. Los otros proyectos se presentan con el estado que consta en las publicaciones; las viviendas de Notuco 2023 no se rotulan como entregadas porque su publicación dice “obras ejecutándose”.
 

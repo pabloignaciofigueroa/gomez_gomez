@@ -8,7 +8,7 @@ Este repositorio contiene la V2 y sus recursos finales. Las capturas de trabajo 
 
 ## Entrega
 - `index.html`, `styles.css`, `script.js`: web HTML/CSS/JS independiente.
-- `guia-marca.html`: guía actualizada con azul marino #162B4E protagonista.
+- `guia-marca.html`: guía actualizada con azul marino #1E3A63 protagonista.
 - `comparacion.html`: comparación V1/V2 y registro del recorrido.
 - `assets/video/`: vídeos locales optimizados, sin audio.
 - `analisis/`: comprobaciones, capturas y procedencia.
