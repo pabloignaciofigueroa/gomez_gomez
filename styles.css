@@ -48,3 +48,7 @@ footer.wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:st
 
 /* Subtle corners for calls to action and interactive cards. */
 .button,.text-link,.portrait-story,.work-caption i,.craft-tabs button,.journey-handle span,.gallery-controls button{border-radius:5px}
+
+/* Soft corners across photographs and their overlay containers. */
+main img,.gallery-visual img{border-radius:5px}
+.portrait,.work-photo,.journey-stage,.gallery-visual{border-radius:5px;overflow:hidden}
