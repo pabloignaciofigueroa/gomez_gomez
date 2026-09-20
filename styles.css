@@ -52,3 +52,9 @@ footer.wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:st
 /* Soft corners across photographs and their overlay containers. */
 main img,.gallery-visual img{border-radius:5px}
 .portrait,.work-photo,.journey-stage,.gallery-visual{border-radius:5px;overflow:hidden}
+
+/* Direct comparison control; no captions or separate range bar. */
+.journey-stage:after{display:none}
+.journey-handle{left:clamp(24px,var(--reveal),calc(100% - 24px))}
+.journey-handle span{pointer-events:auto;touch-action:none;cursor:ew-resize;user-select:none}
+.journey-handle span:focus-visible{outline:2px solid var(--bone);outline-offset:4px}
