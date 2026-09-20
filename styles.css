@@ -37,3 +37,11 @@ body{font-weight:300}.header nav{font-weight:400}
 .contact{padding-top:0;background:var(--blue)}
 .contact-panel{grid-template-columns:minmax(0,1fr);gap:0}
 #quote-form{width:100%;max-width:900px;margin-inline:auto}
+
+/* Quiet form placeholders and aligned footer. */
+#quote-form input::placeholder,#quote-form textarea::placeholder{color:var(--bone);opacity:.1}
+#quote-form input:focus,#quote-form select:focus,#quote-form textarea:focus{outline:none;border-bottom-color:var(--bone);box-shadow:0 1px 0 var(--bone)}
+footer.wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:30px 18px}
+.footer-instagram{justify-self:end;text-align:right;font-size:14px;padding-top:5px}
+.footer-copyright{grid-column:1/-1;color:#bdb8b0;font-size:14px}
+@media(max-width:380px){footer .footer-brand{font-size:25px}}
